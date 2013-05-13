@@ -1,0 +1,235 @@
+<?php include 'includes/header.php'; ?>
+
+		<section id="work">
+
+		    <div id="logoSlider" class="rslides_container">
+
+		    	<ul class="rslides slider3">
+					<li><img src="images/mfs.png" alt="Michigan Food Story Logo"></li>
+					<li><img src="images/cjg.png" alt="CJG Construction Logo"></li>
+					<li><img src="images/comlink.png" alt="Community Link Logo"></li>
+					<li><img src="images/dsp.png" alt="Detroit Spectrum Painters Logo"></li>
+					<li><img src="images/cookwithStyle.png" alt="Cooking With Style Logo"></li>
+					<li><img src="images/playup.png" alt="Play It Up Logo"></li>
+					<li><img src="images/ulttailgate.png" alt="Ultimate Tailgate Logo"></li>
+				</ul>
+
+		    </div>
+			
+
+			<div id="printSlider" class="rslides_container">
+      			<ul class="rslides slider3">
+      				<li><img src="images/bspshirt.jpg" alt="Backstage Pass Shirt Design"></li>
+					<li><img src="images/sushi1.jpg" alt="Sushi Collateral"></li>
+					<li><img src="images/sushi2.jpg" alt="Sushi Collateral"></li>
+					<li><img src="images/tapbowlad.jpg" alt="TAP Superbowl Special"></li>
+					<li><img src="images/tapbanners.jpg" alt="TAP Superbowl Special"></li>
+					<li><img src="images/bravostudio.jpg" alt="Bravo Studio Photography Business Card"></li>
+					<li><img src="images/mothersDay1.jpg" alt="Cooking with Style Invite"></li>
+					<li><img src="images/cruisin.jpg" alt="Cruisin on the River Invite"></li>
+					<li><img src="images/playitup.jpg" alt="Play It Up Postcard"></li>
+					<li><img src="images/wn50.jpg" alt="Wine Nights - 50% off"></li>
+					<li><img src="images/annualreport3.jpg" alt="Annual Report 2010"></li>
+					<li><img src="images/annualreport2.jpg" alt="Annual Report 2010"></li>
+					<li><img src="images/annualreport.jpg" alt="Annual Report 2010"></li>
+					<li><img src="images/shwtemps.jpg" alt="SHW Mailer Templates"></li>
+					<li><img src="images/liberty1.jpg" alt="Liberty Brochure"></li>
+					<li><img src="images/liberty2.jpg" alt="Liberty Brochure"></li>
+					<li><img src="images/gimblecd.jpg" alt="Gimble Album Cover Deisgn"></li>
+				</ul>
+		    </div>			
+
+
+
+		    <div id="siteSlider" class="rslides_container">
+      			<ul class="rslides slider3">
+					<li><img src="images/tapform.jpg" alt="TAP Experience Form">
+						<a href="tapform/index.html" target="_blank"><p class="caption">View site</p></a>
+					</li>
+
+					<li><img src="images/bellocchio.jpg" alt="Bellocchio Resale Website">
+						<a href="bellocchio/index.php" target="_blank"><p class="caption">View site</p></a>
+					</li>
+					<li><img src="images/9.png" alt="">
+						<a href="https://www.google.com/" target="_blank"><p class="caption">View site</p></a>
+					</li>
+				</ul>
+		    </div>
+		
+
+		</section>
+
+		<section id="aboutMe">
+
+			<div class="resume-btn">about me</div>
+
+			<article id="resume">
+
+				<div class="aboutMe">
+
+					<div id="portrait"><img src="images/portrait.png" width="200" height="200" alt="Portrait" title="Portrait">
+					</div>
+				</div>
+
+				<div class="statement">
+					<p>Traditionally a print designer, I am an evolving creative; adapting my career to the art of web design. With an interest in UI/UX design, my goal is to become a hybird designer: a designer that can develop, and a developer that can design. At minimum, my goal is to become a mediator between the art and analytical realms of the web design world.</p>
+
+				</div>
+
+				
+				<div id="education">
+
+					<h4>Education</h4>
+
+					<div>
+
+						<h5>Bachelor of Fine Arts</h5>
+						<p class="date">12.2006</p>
+						<p>Lawrence Technological University</p>
+						<p>Focus in Graphic Design &amp; Digital Arts</p>
+						<p>Summa Cum Laude - GPA - 3.92</p>
+					</div>
+
+					<div>
+						<h5>Associates Degree</h5>
+						<p class="date">Present</p>
+						<p>Macomb Community College</p>
+						<p>Interactive Web Design</p>
+					</div>
+					
+				</div>
+
+				<div id="skills">
+					<h4 class="skillsTitle">Skills</h4>
+
+					<div class="skillsSVG">
+						<div class="adobecs"></div>
+						<div class="prepress"></div>
+						<div class="artDirection"></div>
+						<div class="htmlcss"></div>
+						<div class="jquery"></div>
+					</div>
+
+					<p class="skills"><span class="strong">Additional skills:</span> illustrator, photoshop, indesign, creative direction, photography, wire-frames, prototyping, responsive web design, UI/UX</p>
+
+				</div>
+
+				<div id="experience">
+					<h4 class="experience">Work Experience</h4>
+
+					<div class="job">
+						<h5>Senior Graphic designer</h5>
+						<p class="date">10.2009-Present</p>
+						<p>MGM Grand Detroit</p>
+						<ul>
+							<li>Create brand-consistent print and digital collateral for casino, hotel, spa, and signature restaurants</li>
+							<li>Conceptualize, design, and produce promotional, advertising, and web marketing media</li>
+							<li>Design interactive kiosk games for casino promotions</li>
+							<li>Assist in the projection of annual production and printing budgets</li>
+						</ul>
+						
+					</div>
+
+					<div class="job">
+						<h5>Graphic designer</h5>
+						<p class="date">01.2007-07.2009</p>
+						<p>SHW Group</p>
+						<ul>
+							<li>Conceptualized and designed print and web marketing media for direct mail and e-mail</li>
+							<li>Created brand-consistent advertising, print and exhibit signage for corporate communications</li>
+							<li>Prepared layouts for regional and national architectural design competitions</li>
+						</ul>
+					</div>
+
+					<div class="job">
+						<h5>Graphic designer</h5>
+						<p class="date">05.2006-12.2006</p>
+						<p>Metcom, Inc.</p>
+						<ul>
+							<li>Designed layouts for promotional media such as advertisements, manuals, and packaging</li>
+							<li>Prepared artwork for digital and large run print production</li>
+						</ul>
+					</div>
+				</div>
+
+				<div id="achievements">
+
+					<h4 class="achievements">Achievements</h4>
+
+					<div>
+						<p class="date">MGM Grand Detroit</p>
+						<ul class="col1">
+							<li>Directed the user experience design for a newly implemented self-checkout buffet kiosk</li>
+							<li>Directed and designed the user interface for the customer facing promotional kiosk system</li>
+							<li>2011 Shining Star Employee of the Quarter and Employee of the Year Nominee</li>
+						</ul>
+
+					</div>
+
+					<div>
+						<p class="date">SHW Group</p>
+						<ul>
+							<li class="emphasis">1st Place - 2009 SMPS Marketing Communications Award</li>
+							<li>SHW Backstage Pass creative</li>
+						</ul>
+
+						<p class="date">AIGA Detroit - 2006-2009</p>
+						<ul>
+							<li class="emphasis">Member - LTU Student Chapter President</li>
+							<li>Established the first AIGA Student Group at Lawrence Technological University</li>
+						</ul>
+
+					</div>
+				</div>
+
+
+			</article>
+
+
+
+
+			<!--<section class="resume-btn">
+
+				<h3>resume</h3>
+
+			</section>
+
+			<section class="aboutMe">
+
+				<div id="portrait"></div>
+
+				<div id="contact">
+					<h3>James Joseph</h3>
+					<p><a href="mailto:jim@jimsrightbrain.com">jim@jimsrightbrain.com</a></p>
+
+				</div>
+
+			</section>-->
+
+		</section>
+
+
+
+
+		<script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+		<script src="js/responsiveslides.js"></script>
+
+		<script>
+		  $(function() {
+		    $(".rslides").responsiveSlides();
+		  });
+		</script>
+
+		<script src="js/main.js"></script>
+
+		<script src="js/slider.js"></script>
+
+		
+
+
+
+
+	</body>
+
+
+</html>

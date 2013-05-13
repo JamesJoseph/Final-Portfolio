@@ -1,0 +1,570 @@
+ body {
+ 	font: 100%;
+ 	font-family: "Questrial", "Helvetica", sans-serif;
+
+ }
+
+h1 {
+  	
+	text-indent: -99999px;
+	background: url("../images/bellocchioLogo.png") left top no-repeat;
+}
+
+h2 {
+	font-family: 'AlexBrushRegular';
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 1.25em;
+}
+
+h3 {
+	font-family: "Questrial", "Helvetica", sans-serif;
+	font-size: 1.125em;
+	text-transform: uppercase;
+	margin-bottom: .938em;
+}
+
+h4 {
+	font-family: "Questrial", "Helvetica", sans-serif;	
+	text-transform: uppercase;
+	font-size: 14px;
+
+}
+
+h5 {
+	font-family: "NovecentowideLightRegular", "Helvetica", sans-serif;	
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #fff;
+	line-height: 246px;
+	text-align: center;
+}
+
+i {
+	font-family: 'eightyshades';
+}
+
+
+
+p {
+	font-size: .75em;
+	line-height: 1.5;
+	margin-bottom: 1.25em;
+	text-align: justify;
+}
+
+
+
+#wrapper {
+	width:100%;
+	margin: 0 auto;
+}
+
+.centerWrap {
+	width: 100%;
+	float: left;
+	clear: left;
+	margin: 0 auto;
+	
+	padding-bottom: 30px;
+	background: url("../images/stitched_wool.png") top left repeat;
+}
+
+/* -- HEADER/NAV -- */
+
+#headerWrap {
+	width: 100%;
+	float: left;
+	clear: left;
+	margin: 0 auto;
+	position: fixed;
+	z-index: 100;
+	background-color: #fff;
+
+}
+
+.header {
+	width: 960px;
+	display: block;
+	margin: 1.875em auto 1.563em auto;
+	
+	height: 111px;
+	padding-bottom: 1.563em;
+	border-bottom: 1px dotted #000;
+	
+	
+}
+
+.logo {
+	width: 15.688em;
+  	height: 6.938em;
+  	float: left;
+  	margin-right: 75px;
+  	margin-left: 110px;
+}
+
+#nav {
+	font-family: "Questrial", "Helvetica", sans-serif;
+	text-transform: uppercase;
+	float: left;
+	height: 111px;
+}
+
+#nav a {
+	height: 50px;
+	text-decoration: none;
+	margin-right: 50px;
+	color: #ccc;
+	line-height: 90px;
+	padding-bottom: 10px;
+	border-bottom: 5px solid #fff;
+	transition-property : color border; 
+  	transition-duration : .5s; 
+  	-webkit-transition-property : color border; 
+  	-webkit-transition-duration : 0.5s; 
+}
+
+#nav a:hover {
+	color: #000;
+	margin-top: 25px;
+	border-bottom: 5px solid #000;
+}
+
+
+/* -- SLIDER -- */
+
+.content {
+	width: 100%;
+	float: left;
+	clear: left;
+	margin: 0 auto;
+}
+
+
+#slider {
+	width: 960px;
+	height: 300px;
+	margin: 190px auto 30px auto;	
+}
+
+
+/* -- NEW ARRIVALS -- */
+
+#arrivals {
+	width: 960px;
+	margin: 0px auto 30px auto;
+	padding-top: 30px;
+	
+}
+
+.rows {
+	width: 918px;
+	margin: 0 auto;
+	clear: left;
+}
+
+.product {
+	width: 246px;
+	height: 246px;
+	padding: 15px;
+	margin: 15px;
+	float: left;
+	background-color: #fff;
+}
+
+.description {
+	width: 246px;
+	height: 246px;
+	background-color: rgba(0, 0, 0, .75);
+	text-align: center;
+	text-transform: uppercase;
+	position: relative;
+	top: 0;
+	left: 0;
+	z-index: 5;
+	opacity: 0;
+	transition: opacity .25s ease-in-out;
+	-moz-transition: opacity .25s ease-in-out;
+	-webkit-transition: opacity .25s ease-in-out;
+
+}
+
+.description:hover {
+	opacity: 1;
+	cursor: pointer;
+}
+
+.photo {
+	width: 246px;
+	height: 246px;
+	position: relative;
+	top: -246px;
+	left: 0;
+	left: 0;
+}
+
+
+
+/* -- ABOUT US -- */
+
+#aboutUs {
+	max-width: 960px;
+	padding-top: 30px;
+	clear: left;
+	margin: 0px auto 20px auto;
+}
+
+.bellocchio {
+	font-size: 16px;
+	line-height: 1.5;
+	padding: 0px 15px 0px 15px;
+
+}
+
+
+#bios {
+	width: 800px;
+	margin: auto;
+	clear: left;
+	text-align: justify;
+	margin-top: 50px;
+}
+
+.portraitWrapper {
+	width: 550px;
+	margin: 0 auto;
+}
+
+.portrait {
+	width: 251px;
+	height: 251px;
+	float: left;
+	margin-bottom: 30px;
+}
+
+.carolyn {
+	margin-left: 48px;
+}
+
+.portraitContainer {
+	width: 251px;
+	height: 251px;
+	position: relative;
+	float: left;
+	-moz-perspective: 600px;
+	-webkit-perspective: 600px;
+	-moz-transition: -moz-transform 0.5s;
+	-webkit-transition: -webkit-transform 0.5s;
+	-moz-transform-origin: center center;
+	-webkit-transform-origin: center center;
+	-moz-transform-style: preserve-3d;
+	-mwebkit-transform-style: preserve-3d;
+
+}
+
+.portrait:hover .portraitContainer {
+	-moz-transform: rotateY(-180deg);
+	-webkit-transform: rotateY(-180deg);
+	-moz-transform-style: preserve-3d;
+	-webkit-transform-style: preserve-3d;
+	-moz-transition: all 0.4s ease-in-out 0s;
+	-webkit-transition: all 0.4s ease-in-out 0s; 
+
+}
+
+.normal {
+	width: 251px;
+	height: 251px;
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	-moz-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+	-moz-transform: rotateX(0deg) rotateY(0deg);
+	-webkit-transform: rotateX(0deg) rotateY(0deg);
+	  	-moz-transform-style: preserve-3d;
+	  	-webkit-transform-style: preserve-3d;
+	  	-moz-transition: all 0.4s ease-in-out 0s;
+	  	-webkit-transition: all 0.4s ease-in-out 0s;
+}
+
+.flipped {
+	width: 251px;
+	height: 251px;
+	position: absolute;
+	background: url("../images/bio-bg.png") top left no-repeat;
+	top: 0px;
+	left: 0px;
+	text-align: center;
+	vertical-align: center;
+	-moz-transform: rotateY(180deg);
+	-webkit-transform: rotateY(180deg);			
+	-moz-backface-visibility: hidden;
+	-webkit-backface-visibility: hidden;
+
+}
+
+.bio {
+	width: 550px;
+	margin: 0px auto 50px auto;
+	clear: left;
+}
+
+.bio p {
+	font-size: 14px;
+}
+
+.title {
+	text-align: center;
+	color: #fff;
+}
+
+
+
+
+
+/* -- CONTACT US -- */
+
+#contactUs {
+	width: 960px;
+	clear: left;
+	margin: 0px auto .938em auto;
+	padding-top: 30px;
+}
+
+.contact {
+	float: left;
+	clear: left;
+	width: 17.5em;
+}
+
+.contact ul {
+	margin-bottom: .625em;
+}
+
+.contact ul li {
+	font-size: .875em;
+	line-height: 1.5;
+} 
+
+
+#map {
+	float: left;
+	width: 40em;
+	height: 30em;
+}
+
+#map iframe{
+	width: 100%;
+	height: inherit;
+}
+
+
+/* -- FOOTER -- */
+
+footer {
+	clear: left;
+	max-width: 960px;
+	padding: 25px 0px 25px 0px;
+	height: 240px;
+	margin: 25px auto 0px auto;
+}
+
+#contact {
+	width: 245px;
+	height: 100%;
+	float: left;
+	border-right: 1px dotted #000;
+}
+
+#contact li {
+	font-size: .75em;
+	line-height: 1.5;
+} 
+
+#mailList {
+	width: 332px;
+	height: 100%;
+	float: left;
+	padding: 0px 30px 0px 30px;
+	border-right: 1px dotted #000;
+}
+
+#contact ul {
+
+	margin-bottom: 25px;
+}
+
+#followUs {
+	width: 250px;
+	height: 100%;
+	float: left;
+	padding: 0px 0px 0px 30px;
+	
+}
+
+#socialIcons {
+	width: 180px;
+	height: 30px;
+	float: left;
+	
+}
+
+#socialIcons ul {
+	width: 180px;
+	height: 30px;
+	float: left;
+	
+}
+
+li.facebook a {
+	width: 30px;
+	height: 30px;
+	background: url("../images/facebookIcon.png") left top no-repeat;
+	float: left;
+	margin-right: 15px;
+	display: block;
+	cursor: pointer;
+	border-radius: 15px;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	transition-property : background-position; 
+  	transition-duration : .5s;
+  	-moz-transition-property: background-position;
+  	-moz-transition-duration : 0.5s; 
+  	-webkit-transition-property : background-position; 
+  	-webkit-transition-duration : 0.5s; 
+}
+
+li.facebook a:hover {
+	background-position: 0 -30px;
+}
+
+
+li.twitter a {
+	width: 30px;
+	height: 30px;
+	background: url("../images/twitterIcon.png") left top no-repeat;
+	float: left;
+	margin-right: 15px;
+	display: block;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	transition-property : background-position; 
+  	transition-duration : .5s;
+  	-moz-transition-property: background-position;
+  	-moz-transition-duration : 0.5s; 
+  	-webkit-transition-property : background-position; 
+  	-webkit-transition-duration : 0.5s; 
+}
+
+li.twitter a:hover {
+	background-position: 0 -30px;
+}
+
+li.pintrest a {
+	width: 30px;
+	height: 30px;
+	background: url("../images/pintrestIcon.png") left top no-repeat;
+	float: left;
+	margin-right: 15px;
+	display: block;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	transition-property : background-position; 
+  	transition-duration : .5s;
+  	-moz-transition-property: background-position;
+  	-moz-transition-duration : 0.5s; 
+  	-webkit-transition-property : background-position; 
+  	-webkit-transition-duration : 0.5s; 
+}
+
+li.pintrest a:hover {
+	background-position: 0 -30px;
+}
+
+li.instagram a {
+	width: 30px;
+	height: 30px;
+	background: url("../images/instagramIcon.png") left top no-repeat;
+	float: left;
+	margin-right: 15px;
+	display: block;
+	-webkit-border-radius: 15px;
+	-moz-border-radius: 15px;
+	border-radius: 15px;
+	transition-property : background-position; 
+  	transition-duration : .5s;
+  	-moz-transition-property: background-position;
+  	-moz-transition-duration : 0.5s; 
+  	-webkit-transition-property : background-position; 
+  	-webkit-transition-duration : 0.5s;  
+}
+
+li.instagram a:hover {
+	background-position: 0 -30px;
+
+}
+
+
+.bold {
+	font-family: "Helvetica", sans-serif;
+	font-weight: 600;
+}
+
+input.email, .mail {
+	width: 298px;
+	float: left;
+	padding: 15px;
+	border: 1px solid #ccc;
+	font-size: 12px;
+	margin-bottom: 10px;
+}
+
+
+.subscribe {
+	width: 200px;
+	font-family: 'NovecentowideNormalRegular', sans-serif;
+	clear: left;
+	float:left;
+	padding: 10px;
+	
+	font-size: 15px;
+	text-transform: uppercase;
+	border: none;
+	color: #fff;
+	background-color: #000;
+}
+
+.subscribe:hover {
+	cursor: pointer;
+	background-color: #ccc;
+}
+
+#copyright {
+	width: 940px;
+	height: 20px;
+	float: left;
+	clear: left;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	font-size: .688em;
+	padding-top: 15px;
+	padding-left: 20px;
+	border-top: 1px dotted #000;
+}
+
+
+/* Form Popup */
+
+.popup {
+	position: relative;
+	z-index: 10;
+	padding: 40px 10px 40px 10px;
+	text-align: center;
+	line-height: 1.5;
+	color: #fff;
+	background-color: #000;
